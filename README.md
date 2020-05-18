@@ -1,2 +1,2 @@
-# bymi15.github.io
+# https://minjae97.github.io/portfolio/
 My Portfolio
