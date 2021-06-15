@@ -51,7 +51,7 @@
           <a class="nav-link js-scroll-trigger" href="#skills"><i class="fas fa-cogs"></i> Skills</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" target="_blank" href="./docs/CV_Minjae Kang.pdf" download>CV / Resume</a>
+          <a class="nav-link" target="_blank" href="./docs/CV_Minjae Kang_2021.pdf" download>CV / Resume</a>
         </li>
       </ul>
     </div>
@@ -65,13 +65,14 @@
           <span class="text-primary">Minjae Kang</span>
         </h1>
         <div class="subheading mb-5 mt-1">Third year computer science student at UCL</div>
-        <p class="lead mb-5">I am a computer scientist who is passionate on technology and never stop learning.<br>
-        In my leisure time, I consistently learn and make effort to develop myself.<br>
-        Currently, I have completed a computer science bachelor degree and processing through the 4th year of MEng Computer Science degree at University College London.<br>
+        <p class="lead mb-5">I am dreaming of becoming a data scientist that is able to extract meaningful values from big data and make a profit from them.
+        I am a passionate person and eager to learn and work for the sake of my self-development.<br>
+        In my leisure time, I consistently make an effort to become a productive and useful data scientist.<br>
+        I graduated from Computer Science Meng in 2021 at University College London and currently looking forward to working as a data scientist.<br>
         </p>
         <div class="social-icons">
           <a href="https://github.com/Minjae97" class="github" target="_blank"><i class="fab fa-github"></i></a>
-          <a href="mailto:jerrykang13@gmail.com" class="email"><i class="fa fa-envelope"></i></a>
+          <a href="mailto:jerrykang135@gmail.com" class="email"><i class="fa fa-envelope"></i></a>
         </div>
       </div>
     </section>
@@ -82,12 +83,38 @@
       <div class="w-100">
         <h2 class="mb-5">Experience</h2>
 
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Data Engineer Intern at Balaan; online shopping start-up</h3>
+            <div class="subheading mb-3">Data Engineering and Back-end Development</div>
+            <p>During the first 3 months of my internship duration, the company did not yet have a separate department for data science works, so I worked in a software development team.
+              Fortunately, I worked as a data engineer in the team and mainly dealt with the data mining process rather than their web application development.
+              As the company requires to gather data from its partners they had contracted with, the data mining process included automating the data crawling, cleaning, and mapping processes.
+              Balaan wanted to gather their product information and categorise the products according to their colour, origin, clothes category, and brand the company had defined.
+              Therefore, the data cleaning and mapping processes included mapping relatively unstructured data to structured data that the company defined.
+               <!-- Because clothes cannot be simply defined as a single colour -->
+               Furthermore, I developed mapping tables(4 tables: colour, origin, clothes category, and brand mapping tables) that enables the Sales Team to modify the features that the company defined.
+               The mapping process described above was achieved by the mapping tables defined in the database and I developed a system that allows the Sales Team to modify it without any database system knowledge.
+               <br>
+               A month before I left the company, a Data Team was created and I had a chance to work in this department.
+               The goal of the team was to analyse data and extract meaningful data to gain an insight into the customers and make a benefit for the company.
+               As a newly born department, the first mission was to construct a system that aggregates business data of the company and creates its visualisations for the company decision makings.
+               We used the AWS cloud services to achieve this task as AWS cloud provides useful functions such as data storage and visualisation with flexible scalability.
+               The system created consisted of 3 AWS cloud services S3, Athena, and Quicksight. The S3 was used as a gathered data storage and the Athena and Quicksight were used for visualisations. 
+               I developed a data pipeline for the Google Analytics (GA) data and automated the GA data retrieval process and its data transferring process.
+               The metrics and visualisations created by this system were used for evaluating the performance and profits of the company and for its decision making. They were also displayed in the company for employees to check their weekly goals and their progress.
+             </p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">June 2020 – October 2020</span>
+          </div>
+        </div>
 
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
             <h3 class="mb-0">Cross-department Smart Classroom IoT Project</h3>
             <div class="subheading mb-3">Back-end Developer and Data Analyst</div>
-            <p>Collaborated with Electrical Engineers to build a smart classroom prototype that autonomously controls a classroom environment(temperature, brightness, and humidity) and checks the security of the room. Built an IoT system with an CC3200 launchpad and sensors and connected them to IBM cloud that receives and saves data using wifi.	Using IBM Rednode, developed a dashboard UI that observes the data sent to the cloud. Utilised Python pandas and numpy to do data analysis and found trends and charactersitics of data and plot graphs. Led a team of four; demonstrated teamwork skill and communication skill for a efficient task distribution and used the strength of each other’s discipline to allocate the tasks.
+            <p>I collaborated with Electrical Engineers to build a smart classroom prototype that autonomously controls a classroom environment(temperature, brightness, and humidity) and checks the security of the room. Built an IoT system with an CC3200 launchpad and sensors and connected them to IBM cloud that receives and saves data using wifi.	Using IBM Rednode, developed a dashboard UI that observes the data sent to the cloud. Utilised Python pandas and numpy to do data analysis and found trends and charactersitics of data and plot graphs. Led a team of four; demonstrated teamwork skill and communication skill for a efficient task distribution and used the strength of each other’s discipline to allocate the tasks.
           </div>
           <div class="resume-date text-md-right">
             <span class="text-primary">January 2020 – April 2020</span>
@@ -139,7 +166,33 @@
         <div class="row">
           <div class="col-lg-4 col-sm-12">
             <div class="card">
-              <h3 class="projectName">IoT Cloud Platform</h3>
+              <h3 class="projectName">Audio-driven Deep Learning Approach for Human Motion Synthesis</h3>
+              <hr>
+              <ul class="bxslider">
+                <li><img src="img/DAE_obama.png" alt=""/></li>
+                <li><img src="img/autoencoder_architecture.PNG" alt=""/></li>
+                <li><img src="img/denoising_autoencoder.PNG" alt=""/></li>
+                <li><img src="img/dimensinon_reduction.PNG" alt=""/></li>
+                <li><img src="img/facial_landmark.PNG" alt=""/></li>
+                <li><img src="img/DAE_180d_z.PNG" alt=""/></li>
+              </ul>
+
+              <div class="projectDesc">
+                  <h5 class="projectName">Description</h5>
+                  <p>Final year project on audio-driven human motion generations. Whereas, traditional methods requires high-end hardwares and labour-intensive, this approach only needs human speech to predict human facial motions.</p>
+                  <ul>
+                    <li>Tensorflow/Keras was used to train the model.</li>
+                  </ul>
+                  <ul>
+                    <li>A state-of-the-art facial analysis toolkit, OpenFace was used to collect train dataset.</li>
+                  </ul>
+                  <a href="https://github.com/Minjae97/Individual_Project" target="_blank"><i class="fab fa-github"> Source Code</i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-12">
+            <div class="card">
+              <h3 class="projectName">Cross-department Smart Classroom IoT Project</h3>
               <hr>
               <ul class="bxslider">
                 <li><img src="img/iot1.png" alt=""/></li>
@@ -147,9 +200,10 @@
               </ul>
               <div class="projectDesc">
                   <h5 class="projectName">Description</h5>
-                  <p>For cross-department Smart classroom IoT project, IBM cloud was used to receive and save the from CC3200. </p>
+                  <p>Collaborated with students from other departments to deliver a smart classroom prototype that autonomously controls a classroom environment(temperature, brightness, and humidity) and monitors the security of the room.</p>
                   <ul class="mt-0">
-                    <li><strong>Node-Red</strong> UI for representations of data received and <strong>CC3200</strong> and <strong>Energia</strong> for the beck-end development</li>
+                    <li><strong>CC3200</strong> and <strong>Energia</strong> for the beck-end development</li>
+                    <li><strong>Node-Red</strong> for developing a data pipeline and a dashboard UI</li>
                   </ul>
                   <a href="https://github.com/Minjae97/IoT_SmartBuilding_Project" target="_blank"><i class="fab fa-github"> Source Code</i></a>
               </div>
@@ -157,7 +211,7 @@
           </div>
           <div class="col-lg-4 col-sm-12">
             <div class="card">
-              <h3 class="projectName">Airbnb Trend Research</h3>
+              <h3 class="projectName">Airbnb Trend Research with Data Analysis</h3>
               <hr>
               <ul class="bxslider">
                 <li><img src="img/airbnb1.png" alt=""/></li>
@@ -167,9 +221,12 @@
 
               <div class="projectDesc">
                   <h5 class="projectName">Description</h5>
-                  <p>Research on the Airbnb trend</p>
+                  <p> Investigated on Airbnb usage flow; see if Airbnb encourages social interactions between hosts and guests or it is(or turning into) a business-oriented platform that makes profit.</p>
                   <ul>
-                    <li>Data analysis with <strong>Python pandas</strong> and <strong>numpy</strong> </li>
+                    <li>Evaluated the trend of different countries of the world by analysing the user reviews with python(<strong>pandas</strong>, <strong>numpy</strong>, <strong>nltk</strong>).</li>
+                  </ul>
+                  <ul>
+                    <li>Data visualisations were used to compare the degree of trend change of each region.</li>
                   </ul>
                   <a href="https://github.com/Minjae97/Airbnb-Trend-Resaerch" target="_blank"><i class="fab fa-github"> Source Code</i></a>
               </div>
@@ -177,7 +234,7 @@
           </div>
           <div class="col-lg-4 col-sm-12">
             <div class="card">
-              <h3 class="projectName">Software Development</h3>
+              <h3 class="projectName">Web App Development</h3>
               <hr>
               <ul class="bxslider">
                 <li><img src="img/webDev1.PNG" alt=""/></li>
@@ -186,17 +243,16 @@
 
               <div class="projectDesc">
                   <h5 class="projectName">Description</h5>
-                  <p>A web platform that allows users to upload their dance performace.</p>
+                  <p>Developed a web application in which users can upload their dance performance videos for an detailed assessment anywhere in the world.</p>
                   <ul>
-                    <li>Implemented register /login logout system including password encrpytion with <strong>passport.js</strong></li>
-                    <li>Built using <strong>NodeJS(Express)</strong> and <strong>MongoDB</strong> database</li>
+                    <li>Mainly took charge of the backend.</li>
+                    <li>The backend was run by <strong>Node.js(Express)</strong> with <strong>MongoDB</strong> database for user details and videos.</li>
+                    <li>Implemented user authentications and0 Google Map service with the Google Map API.</li>
                   </ul>
                   <a href="https://github.com/Minjae97/Web-Platform-Development" target="_blank"><i class="fab fa-github"> Source Code</i></a>
               </div>
             </div>
           </div>
-        </div>
-        <div class="row mt-4">
           <div class="col-lg-4 col-sm-12">
             <div class="card">
               <h3 class="projectName">Web Crawler Project</h3>
@@ -209,7 +265,8 @@
                   <h5 class="projectName">Description</h5>
                   <p>A web crawling programme with GUI. This programme checks the stock of second-hand books from <a href="https://www.aladin.co.kr/usedstore/wgate.aspx" target="_blank" style="text-decoration: none;"> Aladin second-hand bookshop</a> and shows where you can buy those books you input.</p>
                   <ul>
-                    <li>Developed using <strong>selenium</strong>,<strong>bs4</strong>, and <strong> tkinter</strong> libraries </>
+                    <li><strong>Python</strong> with its libraries <strong>selenium</strong> and <strong>bs4</strong> were used for the crawling process.</li>
+                    <li>The GUI was implemented with <strong> tkinter</strong></li>
                   </ul>
                   <a href="https://github.com/Minjae97/AutoAladinCrawlerWithGUI" target="_blank"><i class="fab fa-github"> Source Code</i></a>
               </div>
@@ -226,10 +283,7 @@
         <div class="subheading">Core</div>
         <ul class="list-inline dev-icons">
           <li class="list-inline-item">
-            <i class="fab fa-java"></i> C/C++
-          </li>
-          <li class="list-inline-item">
-            C / C++
+            C/C++
           </li>
           <li class="list-inline-item">
             <i class="fab fa-python"></i> Python
@@ -238,13 +292,31 @@
             <i class="fab fa-js-square"></i> Javascript
           </li>
         </ul>
-        <div class="subheading">Front-end</div>
+        <div class="subheading">Data Science/Machine Learning</div>
         <ul class="list-inline dev-icons">
           <li class="list-inline-item">
-            <i class="fab fa-html5"></i> HTML
+            Numpy
           </li>
           <li class="list-inline-item">
-            <i class="fab fa-css3-alt"></i> CSS
+            Pandas
+          </li>
+          <li class="list-inline-item">
+            Scikit-learn
+          </li>
+          <li class="list-inline-item">
+            TensorFlow/Keras
+          </li>
+        </ul>
+        <div class="subheading">Cloud Service</div>
+        <ul class="list-inline dev-icons">
+          <li class="list-inline-item">
+            <i class="fab fa-aws"></i> S3
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-aws"></i> Athena
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-aws"></i> Quicksight
           </li>
         </ul>
         <div class="subheading">Back-end</div>
@@ -263,6 +335,15 @@
           </li>
           <li class="list-inline-item">
             MongoDB
+          </li>
+        </ul>
+        <div class="subheading">Front-end</div>
+        <ul class="list-inline dev-icons">
+          <li class="list-inline-item">
+            <i class="fab fa-html5"></i> HTML
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-css3-alt"></i> CSS
           </li>
         </ul>
         <div class="subheading">Others</div>
