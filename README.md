@@ -1,2 +1,2 @@
-# https://minjae97.github.io/portfolio/index.html
+# https://minjae97.github.io/portfolio/
 My Portfolio
