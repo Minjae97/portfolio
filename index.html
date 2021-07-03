@@ -18,6 +18,7 @@
   <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
   <link href="css/jquery.bxslider.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
   <!-- Custom styles for this template -->
   <link href="css/resume.css" rel="stylesheet">
@@ -42,10 +43,13 @@
           <a class="nav-link js-scroll-trigger" href="#about"><i class="fas fa-user"></i> About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#experience"><i class="fas fa-code"></i> Experience</a>
+          <a class="nav-link js-scroll-trigger" href="#work_experience"><i class="fas fa-code"></i> Work Experience</a>
         </li>
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#projects"><i class="fas fa-desktop"></i> Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#project_git_repo"><i class="fab fa-github"></i>Project Git Repositories</a>
         </li>
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#skills"><i class="fas fa-cogs"></i> Skills</a>
@@ -79,9 +83,9 @@
 
     <hr class="m-0">
 
-    <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
+    <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="work_experience">
       <div class="w-100">
-        <h2 class="mb-5">Experience</h2>
+        <h2 class="mb-5">Work Experience</h2>
 
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
@@ -112,9 +116,105 @@
 
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
+            <h3 class="mb-0">Private A-levels Physics Tutor</h3>
+            <div class="subheading mb-3">Self-employed</div>
+            <p>
+              After I graduated from A-levels and before I got into my university, I ran one-to-one teaching sessions 12 hours a week to three prospective A-levels students.
+              I arranged the time slots for each student, prepared all the teaching materials, and handled admin tasks such as renting a classroom.
+              Because each student had a different level of knowledge in Physics, I adopted different teaching approaches to each student according to their strengths and weaknesses. 
+             </p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">July 2016 – August 2016</span>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="projects">
+      <div class="w-100">
+        <h2 class="mb-5">Projects</h2>
+
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Information Retrieval and Ranking with Deep Learning</h3>
+            <p>
+              As part of the 'Information Retrieval and Data Mining' coursework, I implemented information retrieval models that return a ranked list of documents relevant to a query.
+              There were two different coursework throughout the module: <br>
+              1. Implement an inverted index and use tf-idf vector weighting to queries and documents so as to implemented BM25 and a query likelihood language model. In addition to the query likelihood language model, I also implemented Dirichlet smoothing, Laplace smoothing, and  Lindstone correction. <br>
+              2. With pre-trained dense word embeddings, GloVe, implement ranking models with Logistic Regression, LambdaMart, and Ranknet. <br>
+              I used Python pandas, NumPy, nltk, and Tensorflow/Keras on Jupyter Notebook.
+            </p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">January 2021 – March 2021</span>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Comparative Analysis of Deep Learning-based News Topic Classification Models</h3>
+            <p>
+              As part of the 'Statistical Natural Language Processing Comparative Analysis' coursework, we(a group of 4 including me) carried out a Comparative Analysis of Deep learning-based news topic classification
+              models. We conducted a comparative analysis of five deep learning-based techniques: RNN, GRU, LSTM, BiGRU, and Finetuned BERT for the task of news topic classification.
+              With transfer learning with BERT, BERT has achieved state of the art performance in many tasks in NLP field  with less data and computation time than traditional
+              models. Therefore, the primary aim of this study was to explore the state-of-the-art pretrained word embedding, BERT, on news classification.
+            </p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">January 2021 – March 2021</span>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Introduction to Deep Learning Coursework</h3>
+            <p>As part of the 'Introduction to Deep Learning' coursework, I had a chance to implement various unsupervised and supervised deep learning models with the Fashion MNIST dataset using Python(TensorFlow/Keras). There were three models I implemented: 1. Logistic Regression without Deep Learning libraries 2. Convolutional Denoising Autoencoder 3. Multi-label classifier with a pre-trained convolutional autoencoder. For the first task, I implemented a Logistic Regression with MLP and its gradient descent algorithm without any deep learning algorithms.
+              For the second task, I implemented a convolutional denoising autoencoder that is able to restore noisy images to original images. Lastly, for the third task, I firstly implemented a
+              convolutional autoencoder and used this pre-trained encoder of this autoencoder for a multi-label classifier to improve the overall performance. 
+              </p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">October 2020 – December 2020</span>
+          </div>
+        </div>
+
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Audio-driven Deep learning Research on Audio-to-Motion generation</h3>
+            <div class="subheading mb-3">University Final Year Project</div>
+            <p>
+              For my final year project, I conducted deep learning research on Audio-to-Motion human motion generation(human synthesis). Traditional human synthesis heavily relied on visual data that requires high-end hardware, and it is labour-intensive. For example, In one of the most popular movies in 2020 'Avengers: End Game', Computer-Generated Imagery(CGI) technique was used to create realistic and manlike avatars, and actors had to wear specialised hardware on their bodies. Using the fact that human motions and speech are correlated, human motion can be predicted from human speech audio.
+              The dataset was videos of weekly presidential addresses of President Barack Obama. The audio of these videos were converted into a trainable dataset with MFCC, and the facial motion was extracted using a facial behaviour analysis toolkit, Openface. Openface can give facial landmark coordinates from video footages.
+              This research used the representation learning technique(denoising autoencoder) to reduce the dimensionality of the motion data and extract key features.
+              Firstly, an autoencoder was trained for the facial motion-to-motion(facial landmark coordinates), and a latent representation was learned.
+              Then the mapping between MFCC features of the audios and this motion latent representation was learned.
+              Lastly, using the decoder of the motion-to-motion autoencoder, the facial motion can be deduced from the audio data.
+              The mapping between audio data and the latent representation was learned with Gated Recurrent Unit(GRU) and Fully Connected layers. 
+            </p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">October 2020 – March 2021</span>
+          </div>
+        </div>
+
+        
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
             <h3 class="mb-0">Cross-department Smart Classroom IoT Project</h3>
             <div class="subheading mb-3">Back-end Developer and Data Analyst</div>
-            <p>I collaborated with Electrical Engineers to build a smart classroom prototype that autonomously controls a classroom environment(temperature, brightness, and humidity) and checks the security of the room. Built an IoT system with an CC3200 launchpad and sensors and connected them to IBM cloud that receives and saves data using wifi.	Using IBM Rednode, developed a dashboard UI that observes the data sent to the cloud. Utilised Python pandas and numpy to do data analysis and found trends and charactersitics of data and plot graphs. Led a team of four; demonstrated teamwork skill and communication skill for a efficient task distribution and used the strength of each other’s discipline to allocate the tasks.
+            <p>I collaborated with Electrical Engineers to build a smart classroom prototype that autonomously controls a classroom environment(temperature, brightness, and humidity) 
+              and the room's security. We made an IoT system with a CC3200 launchpad and created a data pipeline from the launchpad to the IBM cloud with wifi. 
+              Using IBM Rednode, we developed a dashboard UI that monitors the room's conditions. As the only computer scientist in the team, I took charge of the data analysis section of the project.
+              I used Python pandas and NumPy to do the data analysis. I went through Exploratory Data Analysis(EDA) process to investigate and analyse the data more deeply.
+              The EDA process included evaluating statistical metrics/graphs and data visualisation to find1 trends and features of the data.
+              </p>
           </div>
           <div class="resume-date text-md-right">
             <span class="text-primary">January 2020 – April 2020</span>
@@ -124,8 +224,15 @@
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
             <h3 class="mb-0">Airbnb Customer Trend Research</h3>
-            <div class="subheading mb-3">Took charge of Beijing and Singapore</div>
-            <p>This was a research that investigates the trend of one of the largest sharing economy platform, Airbnb. Originally, the Airbnb manifesto stated that Airbnb fosters social interactions between hosts and guests. However, there is an ongoing debate saying that Airbnb is becoming a purely business transaction platform. Therefore, the aim of this research was to find out the answer for this question. Using Python pandas and numpy, did data anaylsis on Airbnb reviews of each different cities around the world to analyse the trends of Airbnb and expressed these trends by plotting graphs. Cooperated with team members and manage the data and codes using Github. Using the data analysed and graphs ploted, showed that that social interaction factors of Airbnb is decreasing and Airbnb turning into a business-oriented platform. </p>
+            <!-- <div class="subheading mb-3">Took charge of Beijing and Singapore</div> -->
+            <p>This research investigated the trend of one of the largest sharing economy platforms, Airbnb. 
+              Initially, the Airbnb manifesto stated that Airbnb fosters social interactions between hosts and guests. 
+              However, there is an ongoing debate saying that Airbnb is becoming a purely business transaction platform. 
+              Therefore, this research aimed to find out the answer to this question.
+              We carried out this research by using reviews of English-speaking customers worldwide as a dataset. Using a pre-defined dictionary that tells which words belong to
+              'business' domain or 'social interaction' domain, these reviews could denote whether users treat Airbnb as a business platform or as a social interaction platform.   
+              We did the data analysis mainly with Python pandas and NumPy and some NLP libraries(e.g. nltk) to figure out the proportion of people using Airbnb as a business platform and social interaction platform. We compared the results with data visualisations. The data visualisations showed that 
+              the social interaction factors of Airbnb is decreasing, and Airbnb is turning into a business-oriented platform over the past ten years.</p>
           </div>
           <div class="resume-date text-md-right">
             <span class="text-primary">January 2020 – April 2020</span>
@@ -135,35 +242,53 @@
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
           <div class="resume-content">
             <h3 class="mb-0">Software Development for Arthur Murray Dance Studio</h3>
-            <div class="subheading mb-3">Back-end Developer </div>
-            <p> Experienced in developing a web platform and with 2 team members according to my client's requirements. The client was Arthur Murray Dance Studio that teaches dance and choreographer mainly in the US and the UK. This was client-based team project and tailored technological and practical services to the client’s needs. The aim was to develop a web platform that allows Arthur Murray users to to upload dance performances on the website and get assessed remotely. For better remote evaluation, utilised Microsoft Kinect to create 3D dance simulation with Unity. I was in charge of the back-end; used Node.js(Experss) and MongoDB for the database. I implemented functionalities of uploading, register, login/logout, password encrpytion, and Google Map. Used github for effective development and aversion management.<br>
-            <a target="_blank" href="http://maplace.co">http://maplace.co</a></p>
+            <div class="subheading mb-3">Back-end Developer</div>
+            <p> I have experience in developing a web platform with two team members for a client from Authur Murray dance studio in the US.
+              Authur Murray dance studio is a company that teaches dance to customers throughout the US and the UK.  
+              This project aimed to develop a web application that allows Arthur Murray dancers to upload their dance performances for a remote assessment. 
+              For a more accurate assessment, we used a Microsoft Kinect camera sensor that captures 3D human motions.
+              I mainly took charge of developing the backend of the web application. The primary programming language used was Node.js(Express) with MongoDB as the database. 
+              I implemented functionalities of uploading, register, login/logout, password encryption, and Google Map integration.
+              </p>
           </div>
           <div class="resume-date text-md-right">
             <span class="text-primary">October 2018 - April 2019</span>
           </div>
         </div>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
-          <div class="resume-content">
-            <h3 class="mb-0">Maze Solving Robotic Challenge</h3>
-            <p> Designed practical methods for a robot to find the shortest path to escape from a maze using C. Utilised theoretical knowledge learned in lectures to analyse and conquer this real-life challenge. Demonstrated collaboration skills and communication skills in order to divide the implementation of complex codes for different scenarios as a team and merge them back together.<br></p>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">January 2018 - April 2018</span>
-          </div>
-        </div>
-
       </div>
 
     </section>
 
     <hr class="m-0">
 
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="projects">
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="project_git_repo">
       <div class="w-100">
-        <h2 class="mb-5">Projects</h2>
+        <h2 class="mb-5">Project Git Repositories</h2>
         <div class="row">
+
+          <div class="col-lg-4 col-sm-12">
+            <div class="card">
+              <h3 class="projectName">Information Retrieval and Ranking with Deep Learning</h3>
+              <a href="https://github.com/Minjae97/information_retrieval_cw1" target="_blank"><i class="fab fa-github">Coursework1</i></a>
+              <a href="https://github.com/Minjae97/IR_CW2" target="_blank"><i class="fab fa-github">Coursework2</i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-sm-12">
+            <div class="card">
+              <h3 class="projectName">Comparative Analysis of Deep Learning-based News Topic Classification Models</h3>
+                <a target="_blank" href="./docs/COMP0087_SNLP_Group_59.pdf" download><i class="fa fa-file-pdf-o"></i>Comparative Analysis of Deep learning-based News Topic Classification Models.pdf</a>
+
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-sm-12">
+            <div class="card">
+              <h3 class="projectName">Introduction to Deep Learning Coursework</h3>
+                <a href="https://github.com/Minjae97/Intro_to_deep_CW" target="_blank"><i class="fab fa-github">Source Code</i></a>
+            </div>
+          </div>
+
           <div class="col-lg-4 col-sm-12">
             <div class="card">
               <h3 class="projectName">Audio-driven Deep Learning Approach for Human Motion Synthesis</h3>
@@ -190,6 +315,8 @@
               </div>
             </div>
           </div>
+
+
           <div class="col-lg-4 col-sm-12">
             <div class="card">
               <h3 class="projectName">Cross-department Smart Classroom IoT Project</h3>
@@ -205,7 +332,8 @@
                     <li><strong>CC3200</strong> and <strong>Energia</strong> for the beck-end development</li>
                     <li><strong>Node-Red</strong> for developing a data pipeline and a dashboard UI</li>
                   </ul>
-                  <a href="https://github.com/Minjae97/IoT_SmartBuilding_Project" target="_blank"><i class="fab fa-github"> Source Code</i></a>
+                  <a href="https://github.com/Minjae97/IoT_SmartBuilding_Project" target="_blank"><i class="fab fa-github">Source Code</i></a>
+                  <a href="https://github.com/Minjae97/IoT-Data-Analysis" target="_blank"><i class="fab fa-github">Data Analysis</i></a>
               </div>
             </div>
           </div>
